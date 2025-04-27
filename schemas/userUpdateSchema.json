@@ -1,0 +1,26 @@
+{
+	"$schema": "https://json-schema.org/draft/2019-09/schema",
+	"type": "object",
+	"default": {},
+	"title": "Root Schema",
+	"required": ["firstName", "lastName", "email"],
+	"additionalProperties": false,
+	"properties": {
+		"firstName": {
+			"type": "string",
+			"default": "",
+			"title": "The firstName Schema"
+		},
+		"lastName": {
+			"type": "string",
+			"default": "",
+			"title": "The lastName Schema"
+		},
+		"email": {
+			"type": "string",
+			"default": "",
+			"title": "The email Schema",
+			"format": "email"
+		}
+	}
+}

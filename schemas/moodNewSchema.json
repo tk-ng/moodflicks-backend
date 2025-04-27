@@ -1,0 +1,18 @@
+{
+	"$schema": "https://json-schema.org/draft/2019-09/schema",
+	"type": "object",
+	"default": {},
+	"title": "Root Schema",
+	"required": ["mood", "username"],
+	"additionalProperties": false,
+	"properties": {
+		"mood": {
+			"type": "string",
+			"pattern": ".*\\S.*"
+		},
+		"username": {
+			"type": "string",
+			"pattern": "^\\S+$"
+		}
+	}
+}

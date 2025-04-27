@@ -1,0 +1,14 @@
+{
+	"$schema": "https://json-schema.org/draft/2019-09/schema",
+	"type": "object",
+	"default": {},
+	"title": "Root Schema",
+	"required": ["name"],
+	"additionalProperties": false,
+	"properties": {
+		"name": {
+			"type": "string",
+			"pattern": ".*\\S.*"
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"$schema": "https://json-schema.org/draft/2019-09/schema",
+	"type": "object",
+	"default": {},
+	"title": "Root Schema",
+	"required": ["username", "password"],
+	"additionalProperties": false,
+	"properties": {
+		"username": {
+			"type": "string",
+			"default": "",
+			"title": "username"
+		},
+		"password": {
+			"type": "string",
+			"default": "",
+			"title": "password"
+		}
+	}
+}
